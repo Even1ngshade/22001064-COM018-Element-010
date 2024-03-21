@@ -31,3 +31,4 @@ public class App {
         return result;
     }
 }
+// Got help from https://stackoverflow.com/questions/36901589/loop-with-scanner and a classmate for the while loop
