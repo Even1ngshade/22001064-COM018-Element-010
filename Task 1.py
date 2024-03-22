@@ -235,6 +235,8 @@ class Calculator(CalculatorPrototype, CalculatorSubject):
 
 class CalculatorObserver:
     def update(self, result):
+        # Formats the result with commas every three digits
+        resultStr = "{:,.0f}".format(result)
         # Updates the method called by the Calculator to notify observers with the result
         print('Result:', result)
 
